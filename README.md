@@ -54,6 +54,7 @@ graph TD
 ```
 
 ## 📁 ディレクトリ構成（抜粋）
+```
 chatbot_dev/
 └── chatbot_project/
     ├── __pycache__/                     # Pythonキャッシュファイル（自動生成）
@@ -84,6 +85,7 @@ chatbot_dev/
     ├── search_azure.py                  # Azure Searchの検索テスト用スクリプト
     ├── setup_project.py                 # 開発環境セットアップ用（DB準備など）
     └── sitauke_qa.html                  # 下請法に関する資料・参考ページ（HTML形式）
+```
 
 ## データ出典
 本チャットボットで使用している法令・FAQデータは、以下の信頼性ある公的機関から取得したものです。
