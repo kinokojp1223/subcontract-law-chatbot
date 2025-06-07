@@ -51,8 +51,9 @@ graph TD
     C --> F[qa_search.py]
     F --> G[Azure SQL / Azure Search<br>（FAQ検索）]
     G --> H[多言語出力 & 回答表示]
+```
 
-## ディレクトリ構成（抜粋）
+## 📁 ディレクトリ構成（抜粋）
 chatbot_dev/
 └── chatbot_project/
     ├── __pycache__/                     # Pythonキャッシュファイル（自動生成）
