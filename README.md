@@ -52,7 +52,7 @@ graph TD
     F --> G[Azure SQL / Azure Search<br>（FAQ検索）]
     G --> H[多言語出力 & 回答表示]
 
-## 📁 ディレクトリ構成（抜粋）
+## ディレクトリ構成（抜粋）
 chatbot_dev/
 └── chatbot_project/
     ├── __pycache__/                     # Pythonキャッシュファイル（自動生成）
@@ -83,3 +83,14 @@ chatbot_dev/
     ├── search_azure.py                  # Azure Searchの検索テスト用スクリプト
     ├── setup_project.py                 # 開発環境セットアップ用（DB準備など）
     └── sitauke_qa.html                  # 下請法に関する資料・参考ページ（HTML形式）
+
+## データ出典
+本チャットボットで使用している法令・FAQデータは、以下の信頼性ある公的機関から取得したものです。
+
+e-Gov 法令API（下請代金支払遅延等防止法）
+提供元：e-Gov（総務省）
+URL：https://laws.e-gov.go.jp/api/1/lawdata/331AC0000000120
+
+Q&A よくある質問コーナー（下請法）
+提供元：公正取引委員会
+URL：https://www.jftc.go.jp/shitauke/sitauke_qa.html
